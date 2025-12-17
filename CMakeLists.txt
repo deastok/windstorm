@@ -11,7 +11,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(windstorm
-    src/main.cpp
+        src/app/main.cpp
+        src/core/version.cpp
 )
 
 target_include_directories(windstorm PRIVATE include)
