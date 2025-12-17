@@ -1,0 +1,27 @@
+# build
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CTestTestfile.cmake
+Makefile
+compile_commands.json
+*.ninja
+.ninja_*
+
+# ide
+.idea/
+
+# os
+.DS_Store
+Thumbs.db
+
+# binary
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
