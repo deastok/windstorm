@@ -13,6 +13,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_executable(windstorm
         src/app/main.cpp
         src/core/app.cpp
+        src/core/commands.cpp
         src/core/version.cpp
 )
 
