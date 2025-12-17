@@ -3,4 +3,4 @@ project(windstorm)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(windstorm main.cpp)
+add_executable(windstorm src/main.cpp)
