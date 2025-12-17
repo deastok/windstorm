@@ -10,8 +10,8 @@ namespace windstorm::core::cmd {
         std::cout << R"(windstorm - CLI prototype
 
 usage:
-    windstorm <command>
-    windstorm [--help] [--version]
+    windstorm <command> [options]
+    windstorm [--help] [--version] [--quiet]
 
 commands:
     help      show this help
@@ -21,6 +21,7 @@ commands:
 options:
     --help, -h      show help
     --version, -v   print version
+    --quiet, -q     suppress non-error output
 )";
         return 0;
     }
