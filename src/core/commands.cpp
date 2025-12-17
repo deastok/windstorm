@@ -1,7 +1,9 @@
 #include "windstorm/commands.h"
 #include "windstorm/version.h"
+#include "windstorm/log.h"
 
 #include <iostream>
+
 
 namespace windstorm::core::cmd {
     int help() {
@@ -24,12 +26,12 @@ options:
     }
 
     int version() {
-        std::cout << "windstorm " << windstorm::core::version() << "\n";
+        std::cout << "windstorm " << core::version() << "\n";
         return 0;
     }
 
     int status() {
-        std::cout << "status: (not impl)\n";
+        util::info("status: (not impl)");
         return 0;
     }
 }

@@ -15,6 +15,7 @@ add_executable(windstorm
         src/core/app.cpp
         src/core/commands.cpp
         src/core/version.cpp
+        src/util/log.cpp
 )
 
 target_include_directories(windstorm PRIVATE include)
